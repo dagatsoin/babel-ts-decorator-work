@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "./",
-    "rootDir": "./",
     "jsx": "react",
     "module": "es2015",
     "noEmit": true,

@@ -2,7 +2,13 @@
   "name": "babel-7-typescript-example",
   "version": "1.0.0",
   "description": "Example TypeScript project built on top of new Babel 7 features",
-  "keywords": ["babel", "babel 7", "typescript", "react", "example"],
+  "keywords": [
+    "babel",
+    "babel 7",
+    "typescript",
+    "react",
+    "example"
+  ],
   "main": "./dist/index.js",
   "repository": "git@github.com:damassi/babel-7-typescript-example.git",
   "author": "Christopher Pappas <damassi.pappas@gmail.com>",
@@ -42,6 +48,7 @@
     "@babel/cli": "^7.0.0-beta.32",
     "@babel/core": "^7.0.0-beta.32",
     "@babel/node": "^7.0.0-beta.32",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.39",
     "@babel/preset-env": "^7.0.0-beta.32",
     "@babel/preset-react": "^7.0.0-beta.32",
     "@babel/preset-stage-3": "^7.0.0-beta.32",
@@ -62,6 +69,7 @@
     "typescript-babel-jest": "^1.0.5"
   },
   "dependencies": {
+    "localforage": "^1.5.6",
     "react": "^16.1.1",
     "react-dom": "^16.1.1"
   }
